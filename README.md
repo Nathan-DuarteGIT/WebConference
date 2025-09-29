@@ -7,7 +7,7 @@ O WebConference é uma aplicação web criada para simular o portal de gestão e
 **Bibliotecas:** SweetAlert2 (para janelas modais), jQuery (para Bootstrap)
 
 ## Status e Funcionalidade
-Este projeto está em desenvolvimento (WIP), com o Frontend principal em 30%.
+Este projeto está em desenvolvimento (WIP), com previsão de conclusão do Frontend até 15 de Outubro.
 
 ### ✅ Funcionalidades Ativas (Frontend):
 
