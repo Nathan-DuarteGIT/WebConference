@@ -1,7 +1,7 @@
 window.onload = function() {
     const btnRegister = document.getElementById("btnRegister")
     btnRegister.addEventListener("click", function(){
-        //abertura da janela modal
+        //abertura da janela modal para inscrição na webconferencia
         swal({
             title: "Inscrição na WebConference",
             html:
@@ -34,10 +34,8 @@ window.onload = function() {
             if(result.value){
                 if(!result.value.err_code) {
                     swal({title: "Inscrição feita com sucesso!"})
-                    console.log("entrei sucesso");
                 } else {
                     swal({title: `${result.value.err_message}`})
-                    console.log("entrei erro");
                 }
             }
         })
